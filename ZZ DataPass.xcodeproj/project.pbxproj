@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAC5A93726C3ADD500AEC04F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC5A93626C3ADD500AEC04F /* AppDelegate.swift */; };
+		EAC5A93926C3ADD500AEC04F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC5A93826C3ADD500AEC04F /* ViewController.swift */; };
+		EAC5A93C26C3ADD500AEC04F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAC5A93A26C3ADD500AEC04F /* Main.storyboard */; };
+		EAC5A93E26C3ADD600AEC04F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAC5A93D26C3ADD600AEC04F /* Assets.xcassets */; };
+		EAC5A94126C3ADD600AEC04F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAC5A93F26C3ADD600AEC04F /* LaunchScreen.storyboard */; };
+		EAC5A94B26C3AF0D00AEC04F /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC5A94A26C3AF0D00AEC04F /* MyCollectionViewCell.swift */; };
+		EAC5A94D26C3B74E00AEC04F /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC5A94C26C3B74E00AEC04F /* NewViewController.swift */; };
+		EAC5A96C26C3BAA100AEC04F /* Dark Side.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAC5A94E26C3BA9D00AEC04F /* Dark Side.mp3 */; };
+		EAC5A96D26C3BAA100AEC04F /* Perfect Duet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAC5A94F26C3BA9D00AEC04F /* Perfect Duet.mp3 */; };
+		EAC5A96E26C3BAA100AEC04F /* We Don't Talk Any More.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAC5A95026C3BA9D00AEC04F /* We Don't Talk Any More.mp3 */; };
+		EAC5A96F26C3BAA100AEC04F /* Galway Girl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAC5A95126C3BA9D00AEC04F /* Galway Girl.mp3 */; };
+		EAC5A97026C3BAA100AEC04F /* All Falls Down.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAC5A95226C3BA9D00AEC04F /* All Falls Down.mp3 */; };
+		EAC5A97126C3BAA100AEC04F /* Faded.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAC5A95326C3BA9D00AEC04F /* Faded.mp3 */; };
+		EAC5A97226C3BAA100AEC04F /* Shape Of You.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAC5A95426C3BA9D00AEC04F /* Shape Of You.mp3 */; };
+		EAC5A97326C3BAA100AEC04F /* Attention.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAC5A95526C3BA9D00AEC04F /* Attention.mp3 */; };
+		EAC5A97426C3BAA100AEC04F /* Something Just Like This .mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAC5A95626C3BA9D00AEC04F /* Something Just Like This .mp3 */; };
+		EAC5A97526C3BAA100AEC04F /* On My Way.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAC5A95726C3BA9D00AEC04F /* On My Way.mp3 */; };
+		EAC5A97626C3BAA100AEC04F /* Baby.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAC5A95826C3BA9D00AEC04F /* Baby.mp3 */; };
+		EAC5A97726C3BAA100AEC04F /* Alone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAC5A95926C3BA9E00AEC04F /* Alone.mp3 */; };
+		EAC5A97826C3BAA100AEC04F /* Favorite Girl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAC5A95A26C3BA9E00AEC04F /* Favorite Girl.mp3 */; };
+		EAC5A97926C3BAA100AEC04F /* Let Me Love You.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAC5A95B26C3BA9E00AEC04F /* Let Me Love You.mp3 */; };
+		EAC5A97A26C3BAA100AEC04F /* See You Again Remix.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAC5A95C26C3BA9E00AEC04F /* See You Again Remix.mp3 */; };
+		EAC5A97B26C3BAA100AEC04F /* BTS (Mikrokosmos ).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAC5A95D26C3BA9E00AEC04F /* BTS (Mikrokosmos ).mp3 */; };
+		EAC5A97C26C3BAA100AEC04F /* Dangerously.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAC5A95E26C3BA9E00AEC04F /* Dangerously.mp3 */; };
+		EAC5A97D26C3BAA100AEC04F /* Hymn For The Weekend.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAC5A95F26C3BA9E00AEC04F /* Hymn For The Weekend.mp3 */; };
+		EAC5A97E26C3BAA100AEC04F /*  A Sky Full Of Stars.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAC5A96026C3BA9E00AEC04F /*  A Sky Full Of Stars.mp3 */; };
+		EAC5A97F26C3BAA100AEC04F /* Love Me Like You.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAC5A96126C3BA9F00AEC04F /* Love Me Like You.mp3 */; };
+		EAC5A98026C3BAA100AEC04F /* Perfect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAC5A96226C3BA9F00AEC04F /* Perfect.mp3 */; };
+		EAC5A98126C3BAA100AEC04F /* See You Again.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAC5A96326C3BA9F00AEC04F /* See You Again.mp3 */; };
+		EAC5A98226C3BAA100AEC04F /* A Year Without Rain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAC5A96426C3BA9F00AEC04F /* A Year Without Rain.mp3 */; };
+		EAC5A98326C3BAA100AEC04F /* Cheap Thirlls.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAC5A96526C3BA9F00AEC04F /* Cheap Thirlls.mp3 */; };
+		EAC5A98426C3BAA100AEC04F /* The Spectre.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAC5A96626C3BAA000AEC04F /* The Spectre.mp3 */; };
+		EAC5A98526C3BAA100AEC04F /* Despacito .mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAC5A96726C3BAA000AEC04F /* Despacito .mp3 */; };
+		EAC5A98626C3BAA100AEC04F /* Alone Part ||.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAC5A96826C3BAA000AEC04F /* Alone Part ||.mp3 */; };
+		EAC5A98726C3BAA100AEC04F /* Hymn For The Weekend Remix.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAC5A96926C3BAA000AEC04F /* Hymn For The Weekend Remix.mp3 */; };
+		EAC5A98826C3BAA100AEC04F /* Somebody To Love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAC5A96A26C3BAA100AEC04F /* Somebody To Love.mp3 */; };
+		EAC5A98926C3BAA100AEC04F /* Girls Like You.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAC5A96B26C3BAA100AEC04F /* Girls Like You.mp3 */; };
+		EAC5A98B26C3C63C00AEC04F /* LyricsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC5A98A26C3C63C00AEC04F /* LyricsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EAC5A93326C3ADD500AEC04F /* ZZ DataPass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZZ DataPass.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAC5A93626C3ADD500AEC04F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EAC5A93826C3ADD500AEC04F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EAC5A93B26C3ADD500AEC04F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAC5A93D26C3ADD600AEC04F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAC5A94026C3ADD600AEC04F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAC5A94226C3ADD600AEC04F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAC5A94A26C3AF0D00AEC04F /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		EAC5A94C26C3B74E00AEC04F /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		EAC5A94E26C3BA9D00AEC04F /* Dark Side.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dark Side.mp3"; sourceTree = "<group>"; };
+		EAC5A94F26C3BA9D00AEC04F /* Perfect Duet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Perfect Duet.mp3"; sourceTree = "<group>"; };
+		EAC5A95026C3BA9D00AEC04F /* We Don't Talk Any More.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "We Don't Talk Any More.mp3"; sourceTree = "<group>"; };
+		EAC5A95126C3BA9D00AEC04F /* Galway Girl.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Galway Girl.mp3"; sourceTree = "<group>"; };
+		EAC5A95226C3BA9D00AEC04F /* All Falls Down.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "All Falls Down.mp3"; sourceTree = "<group>"; };
+		EAC5A95326C3BA9D00AEC04F /* Faded.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Faded.mp3; sourceTree = "<group>"; };
+		EAC5A95426C3BA9D00AEC04F /* Shape Of You.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Shape Of You.mp3"; sourceTree = "<group>"; };
+		EAC5A95526C3BA9D00AEC04F /* Attention.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Attention.mp3; sourceTree = "<group>"; };
+		EAC5A95626C3BA9D00AEC04F /* Something Just Like This .mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Something Just Like This .mp3"; sourceTree = "<group>"; };
+		EAC5A95726C3BA9D00AEC04F /* On My Way.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "On My Way.mp3"; sourceTree = "<group>"; };
+		EAC5A95826C3BA9D00AEC04F /* Baby.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Baby.mp3; sourceTree = "<group>"; };
+		EAC5A95926C3BA9E00AEC04F /* Alone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Alone.mp3; sourceTree = "<group>"; };
+		EAC5A95A26C3BA9E00AEC04F /* Favorite Girl.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Favorite Girl.mp3"; sourceTree = "<group>"; };
+		EAC5A95B26C3BA9E00AEC04F /* Let Me Love You.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Let Me Love You.mp3"; sourceTree = "<group>"; };
+		EAC5A95C26C3BA9E00AEC04F /* See You Again Remix.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "See You Again Remix.mp3"; sourceTree = "<group>"; };
+		EAC5A95D26C3BA9E00AEC04F /* BTS (Mikrokosmos ).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "BTS (Mikrokosmos ).mp3"; sourceTree = "<group>"; };
+		EAC5A95E26C3BA9E00AEC04F /* Dangerously.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Dangerously.mp3; sourceTree = "<group>"; };
+		EAC5A95F26C3BA9E00AEC04F /* Hymn For The Weekend.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Hymn For The Weekend.mp3"; sourceTree = "<group>"; };
+		EAC5A96026C3BA9E00AEC04F /*  A Sky Full Of Stars.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = " A Sky Full Of Stars.mp3"; sourceTree = "<group>"; };
+		EAC5A96126C3BA9F00AEC04F /* Love Me Like You.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Love Me Like You.mp3"; sourceTree = "<group>"; };
+		EAC5A96226C3BA9F00AEC04F /* Perfect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Perfect.mp3; sourceTree = "<group>"; };
+		EAC5A96326C3BA9F00AEC04F /* See You Again.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "See You Again.mp3"; sourceTree = "<group>"; };
+		EAC5A96426C3BA9F00AEC04F /* A Year Without Rain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "A Year Without Rain.mp3"; sourceTree = "<group>"; };
+		EAC5A96526C3BA9F00AEC04F /* Cheap Thirlls.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Cheap Thirlls.mp3"; sourceTree = "<group>"; };
+		EAC5A96626C3BAA000AEC04F /* The Spectre.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Spectre.mp3"; sourceTree = "<group>"; };
+		EAC5A96726C3BAA000AEC04F /* Despacito .mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Despacito .mp3"; sourceTree = "<group>"; };
+		EAC5A96826C3BAA000AEC04F /* Alone Part ||.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Alone Part ||.mp3"; sourceTree = "<group>"; };
+		EAC5A96926C3BAA000AEC04F /* Hymn For The Weekend Remix.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Hymn For The Weekend Remix.mp3"; sourceTree = "<group>"; };
+		EAC5A96A26C3BAA100AEC04F /* Somebody To Love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Somebody To Love.mp3"; sourceTree = "<group>"; };
+		EAC5A96B26C3BAA100AEC04F /* Girls Like You.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Girls Like You.mp3"; sourceTree = "<group>"; };
+		EAC5A98A26C3C63C00AEC04F /* LyricsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAC5A93026C3ADD500AEC04F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAC5A92A26C3ADD400AEC04F = {
+			isa = PBXGroup;
+			children = (
+				EAC5A94A26C3AF0D00AEC04F /* MyCollectionViewCell.swift */,
+				EAC5A93526C3ADD500AEC04F /* ZZ DataPass */,
+				EAC5A93426C3ADD500AEC04F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAC5A93426C3ADD500AEC04F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAC5A93326C3ADD500AEC04F /* ZZ DataPass.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAC5A93526C3ADD500AEC04F /* ZZ DataPass */ = {
+			isa = PBXGroup;
+			children = (
+				EAC5A93826C3ADD500AEC04F /* ViewController.swift */,
+				EAC5A93626C3ADD500AEC04F /* AppDelegate.swift */,
+				EAC5A93A26C3ADD500AEC04F /* Main.storyboard */,
+				EAC5A98A26C3C63C00AEC04F /* LyricsViewController.swift */,
+				EAC5A94C26C3B74E00AEC04F /* NewViewController.swift */,
+				EAC5A93D26C3ADD600AEC04F /* Assets.xcassets */,
+				EAC5A93F26C3ADD600AEC04F /* LaunchScreen.storyboard */,
+				EAC5A94226C3ADD600AEC04F /* Info.plist */,
+				EAC5A96026C3BA9E00AEC04F /*  A Sky Full Of Stars.mp3 */,
+				EAC5A96426C3BA9F00AEC04F /* A Year Without Rain.mp3 */,
+				EAC5A95226C3BA9D00AEC04F /* All Falls Down.mp3 */,
+				EAC5A96826C3BAA000AEC04F /* Alone Part ||.mp3 */,
+				EAC5A95926C3BA9E00AEC04F /* Alone.mp3 */,
+				EAC5A95526C3BA9D00AEC04F /* Attention.mp3 */,
+				EAC5A95826C3BA9D00AEC04F /* Baby.mp3 */,
+				EAC5A95D26C3BA9E00AEC04F /* BTS (Mikrokosmos ).mp3 */,
+				EAC5A96526C3BA9F00AEC04F /* Cheap Thirlls.mp3 */,
+				EAC5A95E26C3BA9E00AEC04F /* Dangerously.mp3 */,
+				EAC5A94E26C3BA9D00AEC04F /* Dark Side.mp3 */,
+				EAC5A96726C3BAA000AEC04F /* Despacito .mp3 */,
+				EAC5A95326C3BA9D00AEC04F /* Faded.mp3 */,
+				EAC5A95A26C3BA9E00AEC04F /* Favorite Girl.mp3 */,
+				EAC5A95126C3BA9D00AEC04F /* Galway Girl.mp3 */,
+				EAC5A96B26C3BAA100AEC04F /* Girls Like You.mp3 */,
+				EAC5A96926C3BAA000AEC04F /* Hymn For The Weekend Remix.mp3 */,
+				EAC5A95F26C3BA9E00AEC04F /* Hymn For The Weekend.mp3 */,
+				EAC5A95B26C3BA9E00AEC04F /* Let Me Love You.mp3 */,
+				EAC5A96126C3BA9F00AEC04F /* Love Me Like You.mp3 */,
+				EAC5A95726C3BA9D00AEC04F /* On My Way.mp3 */,
+				EAC5A94F26C3BA9D00AEC04F /* Perfect Duet.mp3 */,
+				EAC5A96226C3BA9F00AEC04F /* Perfect.mp3 */,
+				EAC5A95C26C3BA9E00AEC04F /* See You Again Remix.mp3 */,
+				EAC5A96326C3BA9F00AEC04F /* See You Again.mp3 */,
+				EAC5A95426C3BA9D00AEC04F /* Shape Of You.mp3 */,
+				EAC5A96A26C3BAA100AEC04F /* Somebody To Love.mp3 */,
+				EAC5A95626C3BA9D00AEC04F /* Something Just Like This .mp3 */,
+				EAC5A96626C3BAA000AEC04F /* The Spectre.mp3 */,
+				EAC5A95026C3BA9D00AEC04F /* We Don't Talk Any More.mp3 */,
+			);
+			path = "ZZ DataPass";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAC5A93226C3ADD500AEC04F /* ZZ DataPass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAC5A94526C3ADD600AEC04F /* Build configuration list for PBXNativeTarget "ZZ DataPass" */;
+			buildPhases = (
+				EAC5A92F26C3ADD500AEC04F /* Sources */,
+				EAC5A93026C3ADD500AEC04F /* Frameworks */,
+				EAC5A93126C3ADD500AEC04F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZZ DataPass";
+			productName = "ZZ DataPass";
+			productReference = EAC5A93326C3ADD500AEC04F /* ZZ DataPass.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAC5A92B26C3ADD400AEC04F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Delvina Jenoline";
+				TargetAttributes = {
+					EAC5A93226C3ADD500AEC04F = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = EAC5A92E26C3ADD400AEC04F /* Build configuration list for PBXProject "ZZ DataPass" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAC5A92A26C3ADD400AEC04F;
+			productRefGroup = EAC5A93426C3ADD500AEC04F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAC5A93226C3ADD500AEC04F /* ZZ DataPass */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAC5A93126C3ADD500AEC04F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC5A94126C3ADD600AEC04F /* LaunchScreen.storyboard in Resources */,
+				EAC5A98526C3BAA100AEC04F /* Despacito .mp3 in Resources */,
+				EAC5A97226C3BAA100AEC04F /* Shape Of You.mp3 in Resources */,
+				EAC5A97126C3BAA100AEC04F /* Faded.mp3 in Resources */,
+				EAC5A93E26C3ADD600AEC04F /* Assets.xcassets in Resources */,
+				EAC5A98426C3BAA100AEC04F /* The Spectre.mp3 in Resources */,
+				EAC5A96C26C3BAA100AEC04F /* Dark Side.mp3 in Resources */,
+				EAC5A98926C3BAA100AEC04F /* Girls Like You.mp3 in Resources */,
+				EAC5A97026C3BAA100AEC04F /* All Falls Down.mp3 in Resources */,
+				EAC5A98326C3BAA100AEC04F /* Cheap Thirlls.mp3 in Resources */,
+				EAC5A97C26C3BAA100AEC04F /* Dangerously.mp3 in Resources */,
+				EAC5A96D26C3BAA100AEC04F /* Perfect Duet.mp3 in Resources */,
+				EAC5A93C26C3ADD500AEC04F /* Main.storyboard in Resources */,
+				EAC5A97426C3BAA100AEC04F /* Something Just Like This .mp3 in Resources */,
+				EAC5A98826C3BAA100AEC04F /* Somebody To Love.mp3 in Resources */,
+				EAC5A98626C3BAA100AEC04F /* Alone Part ||.mp3 in Resources */,
+				EAC5A98026C3BAA100AEC04F /* Perfect.mp3 in Resources */,
+				EAC5A98126C3BAA100AEC04F /* See You Again.mp3 in Resources */,
+				EAC5A97926C3BAA100AEC04F /* Let Me Love You.mp3 in Resources */,
+				EAC5A98226C3BAA100AEC04F /* A Year Without Rain.mp3 in Resources */,
+				EAC5A97B26C3BAA100AEC04F /* BTS (Mikrokosmos ).mp3 in Resources */,
+				EAC5A97526C3BAA100AEC04F /* On My Way.mp3 in Resources */,
+				EAC5A96F26C3BAA100AEC04F /* Galway Girl.mp3 in Resources */,
+				EAC5A97A26C3BAA100AEC04F /* See You Again Remix.mp3 in Resources */,
+				EAC5A97326C3BAA100AEC04F /* Attention.mp3 in Resources */,
+				EAC5A97D26C3BAA100AEC04F /* Hymn For The Weekend.mp3 in Resources */,
+				EAC5A97F26C3BAA100AEC04F /* Love Me Like You.mp3 in Resources */,
+				EAC5A97E26C3BAA100AEC04F /*  A Sky Full Of Stars.mp3 in Resources */,
+				EAC5A97726C3BAA100AEC04F /* Alone.mp3 in Resources */,
+				EAC5A97826C3BAA100AEC04F /* Favorite Girl.mp3 in Resources */,
+				EAC5A97626C3BAA100AEC04F /* Baby.mp3 in Resources */,
+				EAC5A96E26C3BAA100AEC04F /* We Don't Talk Any More.mp3 in Resources */,
+				EAC5A98726C3BAA100AEC04F /* Hymn For The Weekend Remix.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAC5A92F26C3ADD500AEC04F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC5A93926C3ADD500AEC04F /* ViewController.swift in Sources */,
+				EAC5A98B26C3C63C00AEC04F /* LyricsViewController.swift in Sources */,
+				EAC5A93726C3ADD500AEC04F /* AppDelegate.swift in Sources */,
+				EAC5A94B26C3AF0D00AEC04F /* MyCollectionViewCell.swift in Sources */,
+				EAC5A94D26C3B74E00AEC04F /* NewViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EAC5A93A26C3ADD500AEC04F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAC5A93B26C3ADD500AEC04F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAC5A93F26C3ADD600AEC04F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAC5A94026C3ADD600AEC04F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAC5A94326C3ADD600AEC04F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EAC5A94426C3ADD600AEC04F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAC5A94626C3ADD600AEC04F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ZZ DataPass/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.delvina.ZZ-DataPass";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAC5A94726C3ADD600AEC04F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ZZ DataPass/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.delvina.ZZ-DataPass";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAC5A92E26C3ADD400AEC04F /* Build configuration list for PBXProject "ZZ DataPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAC5A94326C3ADD600AEC04F /* Debug */,
+				EAC5A94426C3ADD600AEC04F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAC5A94526C3ADD600AEC04F /* Build configuration list for PBXNativeTarget "ZZ DataPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAC5A94626C3ADD600AEC04F /* Debug */,
+				EAC5A94726C3ADD600AEC04F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAC5A92B26C3ADD400AEC04F /* Project object */;
+}
