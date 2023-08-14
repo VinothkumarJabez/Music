@@ -105,7 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				EAC5A94A26C3AF0D00AEC04F /* MyCollectionViewCell.swift */,
-				EAC5A93526C3ADD500AEC04F /* ZZ DataPass */,
+				EAC5A93526C3ADD500AEC04F /* ZZ_DataPass */,
 				EAC5A93426C3ADD500AEC04F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -118,7 +118,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EAC5A93526C3ADD500AEC04F /* ZZ DataPass */ = {
+		EAC5A93526C3ADD500AEC04F /* ZZ_DataPass */ = {
 			isa = PBXGroup;
 			children = (
 				EAC5A93826C3ADD500AEC04F /* ViewController.swift */,
@@ -160,7 +160,7 @@
 				EAC5A96626C3BAA000AEC04F /* The Spectre.mp3 */,
 				EAC5A95026C3BA9D00AEC04F /* We Don't Talk Any More.mp3 */,
 			);
-			path = "ZZ DataPass";
+			path = ZZ_DataPass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,7 +198,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EAC5A92E26C3ADD400AEC04F /* Build configuration list for PBXProject "ZZ DataPass" */;
+			buildConfigurationList = EAC5A92E26C3ADD400AEC04F /* Build configuration list for PBXProject "ZZ_DataPass" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -445,7 +445,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EAC5A92E26C3ADD400AEC04F /* Build configuration list for PBXProject "ZZ DataPass" */ = {
+		EAC5A92E26C3ADD400AEC04F /* Build configuration list for PBXProject "ZZ_DataPass" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EAC5A94326C3ADD600AEC04F /* Debug */,
